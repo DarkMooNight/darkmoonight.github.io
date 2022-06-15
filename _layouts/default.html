@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <a href="{{ site.baseurl }}/index" class="logo">dark|night</a>
+      <div class="mean-toggle"></div>
+      <nav>
+          <ul>
+              <li><a href="{{ site.baseurl }}/index">home</a></li>
+              <li><a href="{{ site.baseurl }}/store">store</a></li>
+              <li><a href="{{ site.baseurl }}/news">news</a></li>
+              <li><a href="{{ site.baseurl }}/about">about</a></li>
+              <li><a href="{{ site.baseurl }}/donate">donate</a></li>
+          </ul>
+      </nav>
+      <div class="clear"></div>
+  </header>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+  </script>
+  <script type="text/javascript">
+      $(document).ready(function()
+      {
+          $('.mean-toggle').click(function()
+        {
+              $('.mean-toggle').toggleClass('active')
+              $('nav').toggleClass('active')
+        })
+      })
+    </script>
+
+    {{ content }}
+  </body>
+</html>
