@@ -5,10 +5,10 @@ permalink: /news/
 ---
 {% include slider.html %}
 
-<h1 class="title-page">News</h1>
+<h1 class="title-page">Новости</h1>
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.categories.news %}
     <article class="post">
     <div class="blog-card">
     <div class="meta">
@@ -22,9 +22,6 @@ permalink: /news/
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <h2>{{ post.descriproin }}</h2>
       <p> {{ post.excerpt }} </p>
-      <p class="read-more">
-         <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
-      </p>
     </div>
     </div>
     </article>
