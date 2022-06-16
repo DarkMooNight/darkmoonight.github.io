@@ -1,7 +1,11 @@
 ---
 layout: default
 title: "News"
+permalink: /news/
 ---
+{% include slider.html %}
+
+<h1 class="title-page">News</h1>
 
 <div class="posts">
   {% for post in site.posts %}
