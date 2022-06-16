@@ -280,3 +280,64 @@ nav ul li a:hover
         text-align: center;
     }
 }
+
+//Index
+.row {
+  color: #fff;
+  position: relative;
+  max-width: 690px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.columns {
+  overflow:hidden;
+}
+img.to-left {
+  float:left; 
+  width: 299px;
+  height: 330px;
+}
+img.to-right {
+  float:right;
+  width: 335px;
+  height: 242px; 
+}
+img.to-right1 {
+  float:right;
+  width: 341px;
+  height: 326px;
+}
+/* CSS */
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 0.5;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: rgba(22, 22, 22, 1);
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
