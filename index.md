@@ -12,7 +12,7 @@ title: "Home"
         <div class="textbox">
           <h2>Код как смысл жизни</h2>
           <p>мы инди-команда, которая разрабатывает игры и приложения для мобильных и ПК.</p>
-          <a href="{{ site.baseurl }}/news"><button class="button" role="button">перейти</button></a>
+          <a href="{{ site.baseurl }}/about"><button class="button" role="button">перейти</button></a>
         </div>
       </div>
     </div>
@@ -28,7 +28,7 @@ title: "Home"
         <div class="textbox">
           <h2>Бред безумного человека</h2>
           <p>в магазине вы найдете наши игры и программы.</p>
-          <a href="{{ site.baseurl }}/news"><button class="button" role="button">перейти</button></a>
+          <a href="{{ site.baseurl }}/store"><button class="button" role="button">перейти</button></a>
         </div>
       </div>
     </div>
