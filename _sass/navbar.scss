@@ -1,0 +1,104 @@
+header
+{
+    position: relative;
+    max-width: 750px;
+    margin: auto;
+    padding: 10px;
+}
+.logo
+{
+    float:left;
+    text-align: center;
+    line-height: 60px;
+    font-size: 36px;
+    color:#FFFFFF;
+    font-weight: 700;
+    text-decoration: none
+}
+nav
+{
+    float:right;
+}
+.clear
+{
+    clear: both;
+}
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li
+{
+    list-style: none;
+}
+nav ul li a
+{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: grey;
+}
+nav ul li a:after {
+  display: block; 
+  content: ""; 
+  height: 2px; 
+  width: 0%; 
+  background-color: #FFFFFF; 
+  transition: width 0.3s ease-in-out; 
+}
+nav ul li a:hover:after,
+nav ul li a:focus:after {
+  width: 100%;
+}
+nav ul li a.active,
+nav ul li a:hover
+{
+    color:#FFFFFF;
+}
+
+@media (max-width: 750px)
+{
+    .mean-toggle
+    {
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 10px;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+    .mean-toggle:before
+    {
+        content: '=';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    .mean-toggle.active:before
+    {
+        content: '=';
+    }
+    nav
+    {
+        display:none;
+    }
+    nav.active
+    {
+        display:block;
+        width :100%;
+    }
+    nav.active ul
+    {
+        display: block;
+    }
+    nav.active ul li 
+    {
+        margin: 0;
+        text-align: center;
+    }
+}
