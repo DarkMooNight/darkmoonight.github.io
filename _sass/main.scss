@@ -283,29 +283,65 @@ nav ul li a:hover
   color: #fff;
   position: relative;
   max-width: 690px;
-  margin: 20px auto;
-  padding: 10px;
+  margin: auto;
 }
 .columns {
   overflow:hidden;
 }
+.imagebox {
+  width: 50%;
+  height:326px;
+  position:relative;
+}
+.imagebox p{
+  position:absolute;
+  width: 100%;
+  top:50%;
+  transform:translateY(-50%);
+  overflow:hidden;
+}
+.textbox-cont {
+  width: 50%;
+  height:300px;
+  position:relative;
+  overflow:hidden;
+}
+.textbox{
+  position:absolute;
+  width:100%;
+  top:50%;
+  transform:translateY(-50%);
+}
+@media(max-width: 700px) {
+  .textbox-cont{
+    width:100%;
+    height:200px;
+    text-align: center;
+   }
+   .imagebox{
+    width:100%;
+    height:326px;
+   }
+   .imagebox p{
+    margin: auto; 
+    text-align: center;
+   }
+}
+
 img.to-left {
-  float:left; 
   width: 299px;
   height: 330px;
 }
 img.to-right {
-  float:right;
   width: 335px;
   height: 242px; 
 }
 img.to-right1 {
-  float:right;
   width: 341px;
   height: 326px;
 }
 /* CSS */
-.button-81 {
+.button {
   background-color: #fff;
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
@@ -326,14 +362,13 @@ img.to-right1 {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-
-.button-81:hover {
+.button:hover {
   background-color: rgba(22, 22, 22, 1);
   color: #fff;
 }
 
 @media (min-width: 768px) {
-  .button-81 {
+  .button {
     font-size: 1.125rem;
     padding: 1rem 2rem;
   }
@@ -447,11 +482,6 @@ $image3: '';
 $image4: '';
 $image5: '';
 
-.outer-wrapper {
-  width: 80%;
-  margin: 50px auto;
-}
-
 // basic styles
 .s-wrap {
   max-width: 700px;
@@ -462,6 +492,7 @@ $image5: '';
   position: relative;
   background-color: #efefe8;
   overflow: hidden;
+  border-radius: 10px;
 
   > input {
     display: none;
