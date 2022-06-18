@@ -4,13 +4,17 @@
     max-width: 750px;
     position: relative;
   }
-  .title-page img{
+  .title-page img, video{
     max-width: 750px;
     border-radius: 10px;
   }
 
   @media(max-width: 750px) {
-     .title-page img{
+     .title-page img, video{
+      width:100%;
+      margin: auto; 
+     }
+     .title-page{
       width:100%;
       margin: auto; 
      }
