@@ -4,8 +4,8 @@ descriproin: Second game!
 author: Yoshi
 images: '/images/Player1.png'
 ---
-
-<p class="description">Автор: Yoshi</p>
+привет
+как дела?
 
 # Изменения
 dsfsdafsdafsvafsdSDfsafdgjjjbsdafbgjksdbfgjksag sdagasf
