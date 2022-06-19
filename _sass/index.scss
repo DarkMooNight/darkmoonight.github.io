@@ -3,13 +3,14 @@
     position: relative;
     max-width: 750px;
     margin: auto;
+    padding: 20px;
   }
   .columns {
     overflow:hidden;
   }
   .imagebox {
     width: 50%;
-    height:326px;
+    height:300px;
     position:relative;
   }
   .imagebox p{
@@ -27,6 +28,7 @@
   }
   .textbox{
     position:absolute;
+    font-size: 20px;
     width:100%;
     top:50%;
     transform:translateY(-50%);
@@ -35,12 +37,12 @@
   @media(max-width: 750px) {
     .textbox-cont{
       width:100%;
-      height:200px;
+      height:250px;
       text-align: center;
      }
      .imagebox{
       width:100%;
-      height:326px;
+      height:350px;
      }
      .imagebox p{
       margin: auto; 

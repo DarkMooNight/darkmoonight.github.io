@@ -5,7 +5,7 @@ permalink: /donate/
 ---
 
 <div class="donate">
-    <h1>Перевод для пожертваваний</h1>
+    <h1>Перевод для пожертвований</h1>
     <div class="qiwi">
         <h1>Qiwi</h1>
         <iframe width="300" height="300"
@@ -13,9 +13,14 @@ permalink: /donate/
             allowtransparency="true" scrolling="no" frameborder="0"></iframe>
     </div>
     <div class="yomany">
-        <h1>Юмани</h1>
+        <h1>ЮMoney</h1>
         <iframe
             src="https://yoomoney.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%20%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%BC%D1%83%20%D0%BB%D0%B8%D1%86%D1%83&default-sum=15&button-text=11&successURL=&quickpay=shop&account=4100117672775961&"
             width="300" height="300" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
     </div>
+</div>
+<div class="title-page">
+    <p> Всем привет, на данной странице вы можете совершить донат, который поможет нам в дальнейшем развитии и будет
+        мотивировать продолжать создавать что-то новое и интересное, а так же вести блог и писать туториалы.</p>
+    <p> Благодарим всех кто поддерживает нас и играет в наши игры.</p>
 </div>
