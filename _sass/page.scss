@@ -9,6 +9,14 @@
     border-radius: 10px;
   }
 
+  .title-page .description{
+    color: #838383;
+  }
+
+  .title-page video{
+    margin: 5px 0 5px 0;
+  }
+
   @media(max-width: 750px) {
      .title-page img, video{
       width:100%;
