@@ -16,6 +16,20 @@
   .title-page video{
     margin: 5px 0 5px 0;
   }
+  .donate{
+    margin: auto;
+    max-width: 750px;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow:hidden;
+  }
+  .donate .qiwi{
+    float: left;
+  }
+  .donate .yomany{
+    float: right;
+  }
 
   @media(max-width: 750px) {
      .title-page img, video{
@@ -26,4 +40,12 @@
       width:100%;
       margin: auto; 
      }
+     .donate{
+      width:100%;
+      margin: auto; 
+     }
+     .donate .qiwi, .donate .yomany {
+      text-align: center;
+      width:100%;
+    }
   }
