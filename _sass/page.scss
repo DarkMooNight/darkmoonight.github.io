@@ -13,7 +13,6 @@
   .title-page .description{
     color: #838383;
   }
-
   .title-page video{
     margin: 5px 0 5px 0;
   }
@@ -26,10 +25,10 @@
     overflow:hidden;
   }
   .donate .qiwi{
-    float: left;
+    float: right;
   }
   .donate .yomany{
-    float: right;
+    float: left;
   }
 
   @media(max-width: 750px) {
@@ -38,8 +37,8 @@
       margin: auto; 
      }
      .title-page{
-      width:100%;
-      margin: auto; 
+      width:80%;
+      margin: auto;
      }
      .donate{
       width:100%;
