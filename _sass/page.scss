@@ -3,6 +3,15 @@
     margin: auto;
     max-width: 750px;
     position: relative;
+  }
+  .donate-page{
+    color: white;
+    margin: auto;
+    max-width: 750px;
+    position: relative;
+    font-size: 20px;
+  }
+  .about-text{
     font-size: 20px;
   }
   .title-page img, video{
@@ -36,8 +45,9 @@
       width:100%;
       margin: auto; 
      }
-     .title-page{
-      width:80%;
+     .donate-page{
+      text-align: center;
+      width: 90%;
       margin: auto;
      }
      .donate{
