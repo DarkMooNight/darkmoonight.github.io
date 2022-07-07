@@ -54,9 +54,9 @@ permalink: /store/
         <h2>{{ post.descriproin }}</h2>
         <p></p>
         <div class="platform">
-          <img src="/images/windows-logo-silhouette.png" alt="">
-          <img src="/images/linux-logo.png" alt="">
-          <img src="/images/android-logo.png" alt="">
+          <img src="/images/os/windows-logo-silhouette.png" alt="">
+          <img src="/images/os/linux-logo.png" alt="">
+          <img src="/images/os/android-logo.png" alt="">
         </div>
       </div>
     </div>

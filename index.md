@@ -6,7 +6,7 @@ title: "Home"
 <div class="row">
   <div class="columns">
     <div class="imagebox" style="float: right">
-      <p><img src="/images/com.png" class="to-right"></p>
+      <p><img src="/images/home/com.png" class="to-right"></p>
     </div>
     <div class="textbox-cont" style="float:right">
       <div class="textbox">
@@ -21,7 +21,7 @@ title: "Home"
 <div class="row">
   <div class="columns">
     <div class="imagebox" style="float: left">
-      <p><img src="/images/pngwing.com.png" class="to-left"></p>
+      <p><img src="/images/home/pngwing.com.png" class="to-left"></p>
     </div>
     <div class="textbox-cont" style="float:right">
       <div class="textbox">
@@ -37,7 +37,7 @@ title: "Home"
   <div class="columns">
     <div class="imagebox" style="float: right">
       <p><img
-          src="/images/transparent-technology-digital-transformation-a-creative-agency-lightblac5d9718fe9dfb75.4913935915701834226471.png"
+          src="/images/home/transparent-technology-digital-transformation-a-creative-agency-lightblac5d9718fe9dfb75.4913935915701834226471.png"
           class="to-right1"></p>
     </div>
     <div class="textbox-cont" style="float:right">
