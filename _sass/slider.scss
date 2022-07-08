@@ -31,6 +31,10 @@ $slider-width: 100% / $slider-number;
     display: inline-block;
     width: $slider-width;
     height: 100%;
+  }
+  .s-item img{
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -93,5 +97,13 @@ $slider-width: 100% / $slider-number;
 
       & ~ .s-nav .s-nav-#{$i} {display: block;}
     }
+  }
+}
+
+@media(max-width: 750px) {
+  .s-item img{
+    width: 100%; 
+    object-fit: cover; 
+    object-position: bottom; 
   }
 }

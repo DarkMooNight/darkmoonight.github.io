@@ -11,11 +11,11 @@ permalink: /store/
   <input type="radio" id="s-4" name="slider-control">
   <input type="radio" id="s-5" name="slider-control">
   <ul class="s-content">
-    <li class="s-item s-item-1" style="background-image: url()"></li>
-    <li class="s-item s-item-2" style="background-image: url()"></li>
-    <li class="s-item s-item-3" style="background-image: url()"></li>
-    <li class="s-item s-item-4" style="background-image: url()"></li>
-    <li class="s-item s-item-5" style="background-image: url()"></li>
+    <li class="s-item s-item-1"><img src="/images/post/hero-tommy/Screenshot_2022-07-08-14-41-01_1920x1080.png" alt=""></li>
+    <li class="s-item s-item-1"><img src="/images/post/hero-tommy/Screenshot_2022-07-08-14-41-17_1920x1080.png" alt=""></li>
+    <li class="s-item s-item-1"><img src="/images/post/comrun/Screenshot_2022-07-07-18-23-33_1920x1080.png" alt=""></li>
+    <li class="s-item s-item-1"><img src="/images/post/comrun/Screenshot_2022-07-07-18-24-48_1920x1080.png" alt=""></li>
+    <li class="s-item s-item-1"><img src="/images/post/comrun/Screenshot_2022-07-07-18-25-23_1920x1080.png" alt=""></li>
   </ul>
   <div class="s-control">
     <label class="s-c-1" for="s-1"></label>

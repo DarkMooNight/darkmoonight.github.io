@@ -5,7 +5,6 @@ permalink: /donate/
 ---
 
 <div class="donate">
-    <h1>Перевод для пожертвований</h1>
     <div class="yomany">
         <h1>ЮMoney</h1>
         <iframe
@@ -19,6 +18,7 @@ permalink: /donate/
             allowtransparency="true" scrolling="no" frameborder="0"></iframe>
     </div>
 </div>
+
 <div class="donate-page">
     <p> Всем привет, на данной странице вы можете совершить донат, который поможет нам в дальнейшем развитии и будет
         мотивировать продолжать создавать что-то новое и интересное, а так же вести блог и писать туториалы.</p>
