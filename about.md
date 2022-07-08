@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-<div class="title-page">
+<div class="about-page">
   <img src="/images/obl.png">
   <h1>DARK NIGHT</h1>
   <div class="about-text">

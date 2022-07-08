@@ -4,6 +4,19 @@
     max-width: 750px;
     position: relative;
   }
+  .title-page .title{
+    margin-bottom: -15px;
+  }
+  .about-page{
+    color: white;
+    margin: auto;
+    max-width: 750px;
+    position: relative;
+  }
+  .about-page img{
+    max-width: 750px;
+    border-radius: 10px;
+  }
   .donate-page{
     color: white;
     margin: auto;
@@ -42,6 +55,10 @@
 
   @media(max-width: 750px) {
      .title-page img, video{
+      width:100%;
+      margin: auto; 
+     }
+     .about-page img{
       width:100%;
       margin: auto; 
      }

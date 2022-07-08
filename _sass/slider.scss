@@ -1,109 +1,113 @@
-$switch-speed: 1s;
-$slider-number: 5;
-$slider-width: 100% / $slider-number;
-
 .s-wrap {
-  max-width: 750px;
-  width: 100%;
-  margin: auto;
-  margin-bottom: 30px;
-  padding-bottom: 400px;
-  position: relative;
-  background-color: #efefe8;
-  overflow: hidden;
-  border-radius: 10px;
-  > input {
-    display: none;
+  i {
+    position: relative;
+    display: block;
+    height: 400px;
+    overflow: hidden;
+    max-width: 750px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
   }
-  .s-content {
-    margin: 0;
-    padding: 0;
+
+  i:before,
+  i:after {
+    content: "⥪";
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    z-index: 2;
+    width: 2rem;
+    height: 2rem;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+  }
+
+  i:after {
+    content: "⥭";
+    left: auto;
+    right: 1rem;
+  }
+
+  input {
+    appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100% * $slider-number;
-    height: 100%;
-    font-size: 0;
-    list-style: none;
-    transition: transform $switch-speed;
-  }
-  .s-item {
-    display: inline-block;
-    width: $slider-width;
-    height: 100%;
-  }
-  .s-item img{
-    height: 100%;
-    width: 100%;
+    border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    transform: translateX(100%);
+    transition: transform ease-in-out 400ms;
+    z-index: 1;
   }
-}
-.s-type-1 {
-  .s-control {
-    position: absolute;
-    bottom: 18px;
-    left: 50%;
-    text-align: center;
-    transform: translateX(-50%);
-    transition-timing-function: ease-out;
-    > label[class^="s-c-"] {
-      display: inline-block;
-      width: 12px;
-      height: 12px;
-      margin-right: 10px;
-      border-radius: 50%;
-      border: 1px solid #999;
-      background-color: #efefe8;
-      cursor: pointer;
-    }
+
+  input:focus {
+    outline: none;
   }
-  .s-nav label {
-    display: none;
+
+  input:after {
+    content: attr(title);
     position: absolute;
+    bottom: 13%;
+    background-color: black;
+    color: white;
+    padding: 0.2rem 3rem 0.2rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 0 10px 10px 0;
+  }
+
+  input:not(checked):before {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
     top: 50%;
-    padding: 5px 10px;
-    transform: translateY(-50%);
-    cursor: pointer;
-    &::before,
-    &::after {
-      content: "";
-      display: block;
-      width: 8px;
-      height: 24px;
-      background-color: #fff;
-    }
-    &::before {margin-bottom: -12px;}
-    &.left {
-      left: 20px;
-
-      &::before {transform: rotate(45deg);}
-
-      &::after {transform: rotate(-45deg);}
-    }
-    &.right {
-      right: 20px;
-
-      &::before {transform: rotate(-45deg);}
-
-      &::after {transform: rotate(45deg);}
-    }
+    left: calc(-100% + 1rem);
   }
-  @for $i from 1 through $slider-number {
-    #s-#{$i}:checked {
-      & ~ .s-content {transform: translateX(-$slider-width * ($i - 1));}
 
-      & ~ .s-control .s-c-#{$i} {background-color: #333;}
+  input:checked:before {
+    display: none;
+    left: 1rem;
+  }
 
-      & ~ .s-nav .s-nav-#{$i} {display: block;}
-    }
+  input:checked {
+    transform: translateX(0);
+    z-index: 0;
+    box-shadow: -5px 10px 20px -15px rgba(0, 0, 0, 1);
+  }
+
+  input:checked + input:before {
+    left: -3rem;
+  }
+
+  input:checked + input ~ input:before {
+    display: none;
   }
 }
 
 @media(max-width: 750px) {
-  .s-item img{
-    width: 100%; 
-    object-fit: cover; 
-    object-position: bottom; 
+  .s-wrap i{
+    height: 100%;
+    padding-top: 50%;
+  }
+}
+
+@media(max-width: 500px) {
+  .s-wrap input:after{
+    display: none;
   }
 }
