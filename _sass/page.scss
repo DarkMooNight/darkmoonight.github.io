@@ -1,7 +1,7 @@
 .title-page{
     color: white;
     margin: auto;
-    max-width: 750px;
+    max-width: 900px;
     position: relative;
   }
   .title-page .title{
@@ -10,17 +10,17 @@
   .about-page{
     color: white;
     margin: auto;
-    max-width: 750px;
+    max-width: 900px;
     position: relative;
   }
   .about-page img{
-    max-width: 750px;
+    max-width: 900px;
     border-radius: 10px;
   }
   .donate-page{
     color: white;
     margin: auto;
-    max-width: 750px;
+    max-width: 900px;
     position: relative;
     font-size: 20px;
   }
@@ -28,10 +28,9 @@
     font-size: 20px;
   }
   .title-page img, video{
-    max-width: 750px;
+    max-width: 900px;
     border-radius: 10px;
   }
-
   .title-page .description{
     color: #838383;
   }
@@ -40,7 +39,7 @@
   }
   .donate{
     margin: auto;
-    max-width: 750px;
+    max-width: 900px;
     color: white;
     text-align: center;
     position: relative;
@@ -53,7 +52,7 @@
     float: left;
   }
 
-  @media(max-width: 750px) {
+  @media(max-width: 900px) {
      .title-page img, video{
       width:100%;
       margin: auto; 

@@ -1,7 +1,7 @@
 header
 {
     position: relative;
-    max-width: 750px;
+    max-width: 900px;
     margin: auto;
     padding: 20px 0px 30px 0px;
 }
@@ -10,7 +10,7 @@ header
     float:left;
     text-align: center;
     line-height: 60px;
-    font-size: 36px;
+    font-size: 40px;
     color:#FFFFFF;
     font-weight: 700;
     text-decoration: none
@@ -35,6 +35,7 @@ nav ul li
 }
 nav ul li a
 {
+    font-size: 20px;
     display: block;
     margin: 10px 0;
     padding: 10px 15px;
@@ -59,7 +60,7 @@ nav ul li a:hover
     color:#FFFFFF;
 }
 
-@media (max-width: 750px)
+@media (max-width: 900px)
 {
     .mean-toggle
     {

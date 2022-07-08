@@ -1,5 +1,5 @@
 .footer-distributed {
-    max-width: 750px;
+    max-width: 900px;
     position: relative;
     margin: auto;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -67,7 +67,7 @@
   }
   .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
   .footer-distributed p.footer-links a:hover{text-decoration:underline;}
-  @media (max-width: 750px) {
+  @media (max-width: 900px) {
     .footer-distributed .footer-left, .footer-distributed .footer-right {
       text-align: center;
     }

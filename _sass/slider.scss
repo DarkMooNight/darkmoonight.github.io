@@ -2,9 +2,9 @@
   i {
     position: relative;
     display: block;
-    height: 400px;
+    height: 500px;
     overflow: hidden;
-    max-width: 750px;
+    max-width: 900px;
     width: 100%;
     margin: auto;
     margin-bottom: 30px;
@@ -65,7 +65,7 @@
     background-color: black;
     color: white;
     padding: 0.2rem 3rem 0.2rem 3rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     border-radius: 0 10px 10px 0;
   }
 
@@ -99,7 +99,7 @@
   }
 }
 
-@media(max-width: 750px) {
+@media(max-width: 900px) {
   .s-wrap i{
     height: 100%;
     padding-top: 50%;
