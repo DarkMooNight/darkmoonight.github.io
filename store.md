@@ -6,11 +6,11 @@ permalink: /store/
 
 <div class="s-wrap" role="slider">
   <i>
-    <input checked type="radio" name="s" style="background-image: url(/images/post/comrun/Screenshot_2022-07-07-18-23-33_1920x1080.png);" title="Comrun">
-    <input type="radio" name="s" style="background-image: url('https://picsum.photos/500/300?random=2');" title="Random Picture 2">
-    <input type="radio" name="s" style="background-image: url('https://picsum.photos/500/300?random=3');" title="Random Picture 3">
-    <input type="radio" name="s" style="background-image: url('https://picsum.photos/500/300?random=4');" title="Random Picture 4">
-    <input type="radio" name="s" style="background-image: url('https://picsum.photos/500/300?random=5');" title="Random Picture 5">
+    <input checked type="radio" name="s" style="background-image: url(/images/post/comrun/Screenshot_2022-07-07-18-23-33_1920x1080.png);" title="Picture 1">
+    <input type="radio" name="s" style="background-image: url(/images/post/hero-tommy/Screenshot_2022-07-08-14-41-01_1920x1080.png);" title="Picture 2">
+    <input type="radio" name="s" style="background-image: url(/images/post/comrun/Screenshot_2022-07-07-18-24-34_1920x1080.png);" title="Picture 3">
+    <input type="radio" name="s" style="background-image: url(/images/post/hero-tommy/Screenshot_2022-07-08-14-41-07_1920x1080.png);" title="Picture 4">
+    <input type="radio" name="s" style="background-image: url(/images/post/comrun/Screenshot_2022-07-07-18-23-33_1920x1080.png);" title="Picture 5">
   </i>
 </div>
 
