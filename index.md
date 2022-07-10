@@ -11,7 +11,7 @@ title: "Home"
     <div class="textbox-cont" style="float:right">
       <div class="textbox">
         <h1>Код как смысл жизни</h1>
-        <p>Тут вы сможете больше узнать о нас, а так же связтаься с нами.</p>
+        <p>Тут вы сможете больше узнать о нас, а так же связаться с нами.</p>
         <a href="{{ site.baseurl }}/about"><button class="button" role="button">перейти</button></a>
       </div>
     </div>
@@ -26,7 +26,7 @@ title: "Home"
     <div class="textbox-cont" style="float:right">
       <div class="textbox">
         <h1>Наши проекты</h1>
-        <p>Здесь собранны все игры и приложения, которые мы сделали.</p>
+        <p>Здесь собраны все игры и приложения, которые мы сделали.</p>
         <a href="{{ site.baseurl }}/store"><button class="button" role="button">перейти</button></a>
       </div>
     </div>
@@ -43,7 +43,7 @@ title: "Home"
     <div class="textbox-cont" style="float:right">
       <div class="textbox">
         <h1>Новости и туториалы</h1>
-        <p>В данном блоке собранны все новости разработки проектов и туториалы.</p>
+        <p>В данном блоке собраны все новости разработки проектов и туториалы.</p>
         <a href="{{ site.baseurl }}/news"><button class="button" role="button">перейти</button></a>
       </div>
     </div>
