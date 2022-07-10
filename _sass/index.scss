@@ -29,7 +29,6 @@
   }
   .textbox{
     position:absolute;
-    font-size: 20px;
     width:100%;
     top:50%;
     transform:translateY(-50%);
@@ -39,16 +38,16 @@
     font-size: 24px;
   }
   img.to-left {
-    width: 399px;
+    width: 400px;
     height: 430px;
   }
   img.to-right {
-    width: 435px;
-    height: 342px; 
+    width: 450px;
+    height: 340px; 
   }
   img.to-right1 {
-    width: 441px;
-    height: 426px;
+    width: 440px;
+    height: 430px;
   }
 
   @media(max-width: 900px) {
@@ -72,8 +71,14 @@
     .imagebox p img.to-left, p img.to-right, p img.to-right1 {
       height: 100%;
     }
+    .textbox p{
+      font-size: 20px;
+    }
+    .textbox h1{
+      font-size: 24px;
+    }
   }
-  @media(max-width: 600px){
+  @media(max-width: 450px){
     .imagebox{
       width:100%;
     }

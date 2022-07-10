@@ -10,8 +10,8 @@ title: "Home"
     </div>
     <div class="textbox-cont" style="float:right">
       <div class="textbox">
-        <h2>Код как смысл жизни</h2>
-        <p>мы инди-команда, которая разрабатывает игры и приложения для мобильных и ПК.</p>
+        <h1>Код как смысл жизни</h1>
+        <p>Тут вы сможете больше узнать о нас, а так же связтаься с нами.</p>
         <a href="{{ site.baseurl }}/about"><button class="button" role="button">перейти</button></a>
       </div>
     </div>
@@ -25,8 +25,8 @@ title: "Home"
     </div>
     <div class="textbox-cont" style="float:right">
       <div class="textbox">
-        <h2>Бред безумного человека</h2>
-        <p>в магазине вы найдете наши игры и программы.</p>
+        <h1>Наши проекты</h1>
+        <p>Здесь собранны все игры и приложения, которые мы сделали.</p>
         <a href="{{ site.baseurl }}/store"><button class="button" role="button">перейти</button></a>
       </div>
     </div>
@@ -42,8 +42,8 @@ title: "Home"
     </div>
     <div class="textbox-cont" style="float:right">
       <div class="textbox">
-        <h2>Новости о ходе разработки</h2>
-        <p>здесь новости, рассказывающие о наших успехах в разработке игр и приложений.</p>
+        <h1>Новости и туториалы</h1>
+        <p>В данном блоке собранны все новости разработки проектов и туториалы.</p>
         <a href="{{ site.baseurl }}/news"><button class="button" role="button">перейти</button></a>
       </div>
     </div>
