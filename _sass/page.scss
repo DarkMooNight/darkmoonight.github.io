@@ -56,7 +56,12 @@
   .donate .yomany{
     float: left;
   }
-
+  .about-text p{
+    font-size: 20px;
+  }
+  .donate-page{
+    font-size: 20px;
+  }
   @media(max-width: 900px) {
      .title-page img, video{
       width:100%;
@@ -78,5 +83,17 @@
      .donate .qiwi, .donate .yomany {
       text-align: center;
       width:100%;
+    }
+    .about-text p{
+      font-size: 18px;
+    }
+    .about-text h2{
+      font-size: 24px;
+    }
+    .about-page h1{
+      font-size: 28px;
+    }
+    .donate-page p{
+      font-size: 18px;
     }
   }
