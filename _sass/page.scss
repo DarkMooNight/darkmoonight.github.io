@@ -63,24 +63,26 @@
     font-size: 20px;
   }
   @media(max-width: 900px) {
-     .title-page img, video{
+    .title-page{
+      width: 90%;
+    }
+    .title-page img, video{
+      width:100%;
+      margin: auto;   
+    }
+    .about-page img{
       width:100%;
       margin: auto; 
-     }
-     .about-page img{
-      width:100%;
-      margin: auto; 
-     }
-     .donate-page{
-      text-align: center;
+    }
+    .donate-page{
       width: 90%;
       margin: auto;
-     }
-     .donate{
+      }
+    .donate{
       width:100%;
       margin: auto; 
-     }
-     .donate .qiwi, .donate .yomany {
+    }
+    .donate .qiwi, .donate .yomany {
       text-align: center;
       width:100%;
     }
@@ -89,6 +91,9 @@
     }
     .about-text h2{
       font-size: 24px;
+    }
+    .about-page{
+      width: 90%;
     }
     .about-page h1{
       font-size: 28px;
